@@ -15,7 +15,5 @@ export default function FoxViewer() {
     return () => viewer.stopAnimation();
   }, []);
 
-  return (
-    <div ref={containerRef} style={{ width: 300, height: 300 }} />
-  );
+  return <div ref={containerRef} style={{ width: 300, height: 300 }} />;
 }
